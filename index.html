@@ -13,32 +13,42 @@
             <h1>أذكر الله</h1>
             <p>الدعاء والتسبيح يبعثان في القلب الراحة والسكينة</p>
         </header>
-        <main>
-            <div class="dhikr-item">
-                <button class="dhikr-button" data-id="subhanAllah">سبحان الله</button>
-                <p> 33 >  <span id="count-subhanAllah">0</span></p>
-            </div>
-            <div class="dhikr-item" onclick="myFunction()">
-                <button class="dhikr-button" data-id="alhamdulillah">الحمد لله</button>
-                <p> 33 > <span id="count-alhamdulillah">0</span></p>
-            </div>
-            <div class="dhikr-item">
-                <button class="dhikr-button" data-id="laIlahaIllaAllah">لا إله إلا الله</button>
-                <p> 33 > <span id="count-laIlahaIllaAllah">0</span></p>
-            </div>
-            <div class="dhikr-item">
-                <button class="dhikr-button" data-id="allahuAkbar">الله أكبر</button>
-                <p> 33 > <span id="count-allahuAkbar">0</span></p>
-            </div>
-            <div class="dhikr-item">
-                <button class="dhikr-button" data-id="laIlahaIllaAllah">لا حول ولا قوة إلا بالله</button>
-                <p> 33 > <span id="count-laIlahaIllaAllah">0</span></p>
-            </div>
-            <div class="dhikr-item">
-                <button class="dhikr-button" data-id="laIlahaIllaAllah">اللهم صل وسلم على نبينا محمد</button>
-                <p> 33 > <span id="count-laIlahaIllaAllah">0</span></p>
-            </div>
-        </main>
+<main>
+    <div class="dhikr-item">
+        <button class="dhikr-button" data-id="subhanAllah" onclick="setCountTo33('subhanAllah')">سبحان الله</button>
+        <p> 33 > <span id="count-subhanAllah">0</span></p>
+    </div>
+    <div class="dhikr-item">
+        <button class="dhikr-button" data-id="alhamdulillah" onclick="setCountTo33('alhamdulillah')">الحمد لله</button>
+        <p> 33 > <span id="count-alhamdulillah">0</span></p>
+    </div>
+    <div class="dhikr-item">
+        <button class="dhikr-button" data-id="laIlahaIllaAllah" onclick="setCountTo33('laIlahaIllaAllah')">لا إله إلا الله</button>
+        <p> 33 > <span id="count-laIlahaIllaAllah">0</span></p>
+    </div>
+    <div class="dhikr-item">
+        <button class="dhikr-button" data-id="allahuAkbar" onclick="setCountTo33('allahuAkbar')">الله أكبر</button>
+        <p> 33 > <span id="count-allahuAkbar">0</span></p>
+    </div>
+    <div class="dhikr-item">
+        <button class="dhikr-button" data-id="laHawlaWaQuwata" onclick="setCountTo33('laHawlaWaQuwata')">لا حول ولا قوة إلا بالله</button>
+        <p> 33 > <span id="count-laHawlaWaQuwata">0</span></p>
+    </div>
+    <div class="dhikr-item">
+        <button class="dhikr-button" data-id="salatAlanNabi" onclick="setCountTo33('salatAlanNabi')">اللهم صل وسلم على نبينا محمد</button>
+        <p> 33 > <span id="count-salatAlanNabi">0</span></p>
+    </div>
+</main>
+
+<script>
+    function setCountTo33(id) {
+        // الحصول على العنصر الذي يحتوي على العدد
+        const countElement = document.getElementById(`count-${id}`);
+        // ضبط العدد إلى 33
+        countElement.textContent = 33;
+    }
+</script>
+
         <header>
             <h1>أذكار الصباح والمساء</h1>
         </header>
