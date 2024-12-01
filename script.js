@@ -3,7 +3,9 @@ const dhikrCounts = {
     subhanAllah: 0,
     alhamdulillah: 0,
     allahuAkbar: 0,
-    laIlahaIllaAllah: 0
+    laIlahaIllaAllah: 0,
+    laHawlaWaQuwata: 0,
+    salatAlanNabi: 0
 };
 
 // تحديد الأعداد المطلوبة لكل ذكر
@@ -11,7 +13,9 @@ const dhikrLimits = {
     subhanAllah: 33,
     alhamdulillah: 33,
     allahuAkbar: 33,
-    laIlahaIllaAllah: 33
+    laIlahaIllaAllah: 33,
+    laHawlaWaQuwata: 33,
+    salatAlanNabi: 33
 };
 
 // اختيار جميع الأزرار وإضافة حدث عند الضغط
