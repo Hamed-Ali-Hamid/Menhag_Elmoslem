@@ -4,51 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>منهاج المسلم</title>
-    <link href="https://github.com/Hamed-Ali-Hamid/Menhag_Elmoslem/blob/main/%D9%85%D9%86%D9%87%D8%A7%D8%AC%20%D8%A7%D9%84%D9%85%D8%B3%D9%84%D9%85%20%D8%A8%D8%B1%D9%88%D9%81%D9%8A%D9%84.png?raw=true" type="imag/x-icon" rel="icon" />
+    <link href="https://github.com/MenhagElmoslem/OHA/blob/main/%D9%85%D9%86%D9%87%D8%A7%D8%AC%20%D8%A7%D9%84%D9%85%D8%B3%D9%84%D9%85%20%D8%A8%D8%B1%D9%88%D9%81%D9%8A%D9%84.png?raw=true" type="imag/x-icon" rel="icon" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
         <header>
-            <h1>أذكر الله</h1>
+            <div class="logo-container">
+                <img src="https://github.com/MenhagElmoslem/OHA/blob/main/%D9%85%D9%86%D9%87%D8%A7%D8%AC%20%D8%A7%D9%84%D9%85%D8%B3%D9%84%D9%85%20%D8%A8%D8%B1%D9%88%D9%81%D9%8A%D9%84.png?raw=true" alt="شعار الموقع" class="logo-image">
+            </div>
+            <h1>منهاج المسلم</h1>
             <p>الدعاء والتسبيح يبعثان في القلب الراحة والسكينة</p>
-        </header>
-<main>
-    <div class="dhikr-item">
-        <button class="dhikr-button" data-id="subhanAllah" onclick="setCountTo33('subhanAllah')">سبحان الله</button>
-        <p> 33 > <span id="count-subhanAllah">0</span></p>
-    </div>
-    <div class="dhikr-item">
-        <button class="dhikr-button" data-id="alhamdulillah" onclick="setCountTo33('alhamdulillah')">الحمد لله</button>
-        <p> 33 > <span id="count-alhamdulillah">0</span></p>
-    </div>
-    <div class="dhikr-item">
-        <button class="dhikr-button" data-id="laIlahaIllaAllah" onclick="setCountTo33('laIlahaIllaAllah')">لا إله إلا الله</button>
-        <p> 33 > <span id="count-laIlahaIllaAllah">0</span></p>
-    </div>
-    <div class="dhikr-item">
-        <button class="dhikr-button" data-id="allahuAkbar" onclick="setCountTo33('allahuAkbar')">الله أكبر</button>
-        <p> 33 > <span id="count-allahuAkbar">0</span></p>
-    </div>
-    <div class="dhikr-item">
-        <button class="dhikr-button" data-id="laHawlaWaQuwata" onclick="setCountTo33('laHawlaWaQuwata')">لا حول ولا قوة إلا بالله</button>
-        <p> 33 > <span id="count-laHawlaWaQuwata">0</span></p>
-    </div>
-    <div class="dhikr-item">
-        <button class="dhikr-button" data-id="salatAlanNabi" onclick="setCountTo33('salatAlanNabi')">اللهم صل وسلم على نبينا محمد</button>
-        <p> 33 > <span id="count-salatAlanNabi">0</span></p>
-    </div>
-</main>
-         <header>
+        </header>        
+        <main>
+            <div class="dhikr-item">
+                <button class="dhikr-button" data-id="subhanAllah">سبحان الله</button>
+                <p> 33 >  <span id="count-subhanAllah">0</span></p>
+            </div>
+            <div class="dhikr-item" onclick="myFunction()">
+                <button class="dhikr-button" data-id="alhamdulillah">الحمد لله</button>
+                <p> 33 > <span id="count-alhamdulillah">0</span></p>
+            </div>
+            <div class="dhikr-item">
+                <button class="dhikr-button" data-id="allahuAkbar">الله أكبر</button>
+                <p> 33 > <span id="count-allahuAkbar">0</span></p>
+            </div>
+            <div class="dhikr-item">
+                <button class="dhikr-button" data-id="laIlahaIllaAllah">لا إله إلا الله</button>
+                <p> 33 > <span id="count-laIlahaIllaAllah">0</span></p>
+            </div>
+        </main>
+        <header>
             <h1>أذكار الصباح والمساء</h1>
         </header>
         <main>
             <div id="azkar-container">
                 <!-- رابط يؤدي إلى صفحة أذكار الصباح -->
-                <a href="https://hamed-ali-hamid.github.io/Azkar_Elsbsh/" class="button">أذكار الصباح</a>
+                <a href="https://menhagelmoslem.github.io/azkarelsabah/" class="button">أذكار الصباح</a>
                 <!-- رابط يؤدي إلى صفحة أذكار المساء -->
-                <a href="https://hamed-ali-hamid.github.io/Azkar_Elmasaa/" class="button">أذكار المساء</a>
+                <a href="https://menhagelmoslem.github.io/azkarelmasaa/" class="button">أذكار المساء</a>
 
  <div class="description">
     </ul>
@@ -83,14 +78,14 @@
 <div class="social-links" style="display: flex; gap: 10px; justify-content: center;">
     <div class="social-item" style="text-align: center;">
         <a href="https://whatsapp.com/channel/0029VadyUlF4IBhCYcmZZW2o" target="_blank">
-            <img src="https://github.com/Hamed-Ali-Hamid/Menhag_Elmoslem/blob/main/images.jpeg?raw=true" style="width: 50px; height: 50px;">
+            <img src="https://github.com/MenhagElmoslem/-/blob/main/images.jpeg?raw=true" style="width: 50px; height: 50px;">
         </a>
         <p>قناة أَهْلُ القُرْآن 🖤🤍
         </p>
     </div>
     <div class="social-item" style="text-align: center;">
         <a href="https://chat.whatsapp.com/CTm5iN5ZuAE4Kg6xD9W2rj" target="_blank">
-            <img src="https://github.com/Hamed-Ali-Hamid/Menhag_Elmoslem/blob/main/artworks-A9zz9mPlzRq04Jf8-RIhcGg-t240x240.jpg?raw=true" style="width: 50px; height: 50px;">
+            <img src="https://github.com/MenhagElmoslem/-/blob/main/artworks-A9zz9mPlzRq04Jf8-RIhcGg-t240x240.jpg?raw=true" style="width: 50px; height: 50px;">
         </a>
         <p>Muslim 🖤
             🤲
@@ -98,14 +93,13 @@
     </div>
     <div class="social-item" style="text-align: center;">
         <a href="https://whatsapp.com/channel/0029VakaAgh2ZjCfbMPf891v" target="_blank">
-            <img src="https://github.com/Hamed-Ali-Hamid/Menhag_Elmoslem/blob/main/IMG_20241022_211942_130.jpg?raw=true" style="width: 50px; height: 50px;">
+            <img src="https://github.com/MenhagElmoslem/-/blob/main/IMG_20241022_211942_130.jpg?raw=true" style="width: 50px; height: 50px;">
         </a>
         <p>قناة أَهْلُ الدَّعْوَة 🖤🤍
         </p>
     </div>
 </div>
 
-            <script src="script.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
